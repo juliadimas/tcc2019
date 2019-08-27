@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Depression</string>
+    <string name="email">Email</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="eSenha">Esqueci a Senha</string>
+    <string name="Cadastro">Cadastrar-se</string>
+    <string name="nUsuario">Nome de Usuário</string>
+    <string name="cSenha">Confirme senha</string>
+    <string name="btnCadastrar">Cadastrar</string>
+    <string name="btnRedefinir">Redefinir</string>
+    <string name="Enviado">Foi enviado um código para o seu email</string>
+    <string name="Enviado2">Insira o código abaixo:</string>
+    <string name="Codigo">Código</string>
+    <string name="Voltar">VOLTAR</string>
+    <string name="Confirmar">Confirmar</string>
+    <string name="nSenha">NOVA SENHA</string>
+
+</resources>
