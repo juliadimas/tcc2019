@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".TelaLogin">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textAlignment="center">
+
+        <ImageView
+            android:id="@+id/imgLogo1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="-30dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/lg_img" />
+
+        <ImageView
+            android:id="@+id/imgLogin"
+            android:layout_width="170dp"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            app:srcCompat="@drawable/tt_login" />
+
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="300dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/email"
+            android:textAlignment="textStart"
+            android:inputType="textEmailAddress"
+            />
+
+        <EditText
+            android:id="@+id/edSenha"
+            android:layout_width="300dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:hint="@string/senha"
+            android:inputType="textPassword"
+            android:textAlignment="textStart"/>
+
+        <TextView
+            android:id="@+id/tvEsenha"
+            android:layout_width="164dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:layout_marginLeft="65dp"
+            android:text="@string/eSenha"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/btConfirmar"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#2E3C59"
+            android:gravity="center"
+            android:text="@string/entra"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/txCadastrar"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="@string/Cadastro"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="70px" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
