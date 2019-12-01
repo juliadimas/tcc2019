@@ -1,0 +1,64 @@
+<resources>
+    //Nome que vai aparecer para o usuário
+    <string name="app_name">;</string>
+
+    //Login
+    <string name="email">E-mail:</string>
+    <string name="senha">Senha:</string>
+    <string name="entra">ENTRAR</string>
+    <string name="eSenha">Esqueceu sua senha?</string>
+    <string name="Cadastro">Cadastrar-se!</string>
+
+    //Cadastro
+    <string name="nUsuario">Nome de Usuário</string>
+    <string name="btnCadastrar">Cadastrar</string>
+
+
+    <string name="Voltar">VOLTAR</string>
+    <string name="Confirmar">Confirmar</string>
+    <string name="nSenha">NOVA SENHA</string>
+
+    //Entrou
+    <string name="bVindo">Bem Vindo(a)!</string>
+    <string name="bt1">CHAT</string>
+    <string name="bt2">NOTAS</string>
+    <string name="bt3">INFORMAÇÕES</string>
+    <string name="bt4">CONTROLE</string>
+
+    <string name="logout">Sair</string>
+
+    //Humores
+    <string name="h01">Tristeza</string>
+    <string name="h02">Pessimismo</string>
+    <string name="h03">Fracasso Passado</string>
+    <string name="h04">Perda de Prazer</string>
+    <string name="h05">Sentimentos de Culpa</string>
+    <string name="h06">Sentimentos de Punição</string>
+    <string name="h07">Auto-estima</string>
+    <string name="h08">Autocrítica</string>
+    <string name="h09">Pensamentos ou desejos suicidas</string>
+    <string name="h10">Choro</string>
+    <string name="h11">Agitação</string>
+    <string name="h12">Perda de Interesse</string>
+    <string name="h13">Indecisão</string>
+    <string name="h14">Desvalorização</string>
+    <string name="h15">Falta de Energia</string>
+    <string name="h16">Auterações no padrão de sono</string>
+    <string name="h17">Irritabilidade</string>
+    <string name="h18">Alterações de apetite</string>
+    <string name="h19">Dificuldade de Concentração</string>
+    <string name="h20">Cansaço ou fadiga</string>
+    <string name="h21">Perda de interesse sexual</string>
+
+    <string name="informe">Que tal nos mandar um link sobre o assunto?</string>
+    <string name="link">link:</string>
+    <string name="aceite">Aceite os links que desejar</string>
+    <string name="enviar">ENVIAR</string>
+
+    <string name="title_activity_tela_notas">telaNotas</string>
+    <string name="nNotas">Nova nota:</string>
+    <string name="criar">Criar</string>
+    <string name="esta">Como você está?</string>
+    <string name="inf">Para mais informações, acesse os links</string>
+
+</resources>

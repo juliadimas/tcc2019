@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.devmedia.tccdepressionmvp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lg_img"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/lg_img"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GraficoEntrou" />
+        <activity android:name=".TelaChat" />
+        <activity android:name=".telaLinks" />
+        <activity android:name=".TelaInformativo" />
+        <activity android:name=".TelaNotas" />
+        <activity android:name=".TelaControle" />
+        <activity android:name=".TelaEnviarLinks" />
+        <activity android:name=".Cadastrar" />
+        <activity android:name=".TelaEsqSenha" />
+        <activity android:name=".TelaLogin" />
+        <activity android:name=".TelaSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddLink" />
+        <activity android:name=".ControleLinks" />
+    </application>
+
+</manifest>
